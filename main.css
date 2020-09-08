@@ -1,0 +1,209 @@
+*,html {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+background-color:#101010;
+font-family: sans-serif;
+}
+ul {
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+margin: 0;
+
+height: 62px;
+background-color: #101010;
+font-size: 40px;
+font-family: 'Dancing Script', cursive;
+}
+
+li {
+text-align: center;
+padding-right: 50px;
+}
+
+li a {
+display: flex;
+color: #f8f9fa;
+text-align: center;
+padding: 8px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #f8f9fa;
+color: #101010;
+font-weight: 800;
+border-radius: 15px;
+} 
+.home-h1 {
+color: #f8f9fa;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 6.05%;
+font-size: 58px;
+letter-spacing: 13px;
+background: 
+linear-gradient(#00d0d0, #33cc66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+color: #f8f9fa; 
+font-weight: none; 
+}
+hr {
+-webkit-box-reflect:below 10px linear-gradient(transparent,rgba(0,0,0,0.2)) ;
+width: 80%;
+margin:10px auto;
+color: #f8f9fa;
+}
+.smoke {
+transform: rotate(90deg);
+position: absolute;
+left: 100px;
+top:-50px;
+filter: drop-shadow(1px 0 10px #b1dc3a) invert(5%);
+z-index: 2;
+}
+.home-p {
+font-family: 'Dancing Script', cursive;
+font-size: 38px;
+display: flex;
+justify-content: center;
+letter-spacing: 10px;
+}
+
+section ,.container-1{
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+bottom: 0px;
+left: 0px;
+height:30%;
+width: 100%;
+background-color: #f8f9fa;
+z-index: -1;
+text-decoration: none;
+}
+.fa {  
+padding: 15px;  
+font-size: 30px;  
+width: 40px;  
+text-align: center;  
+text-decoration: none;
+margin-right: 20px;
+border-radius: 5px;
+margin-left: 98%;
+margin-top: 15px;
+}
+/* Add a hover effect if you want */
+.fa:hover {  
+opacity: 0.7;
+background-color: #101010;
+}
+/* Set a specific color for each brand *//* Facebook */
+.fa-facebook {  
+background: #3B5998;  
+color: white;
+}
+
+/* Twitter */
+.fa-twitter {  
+background: #55ACEE;  
+color: white;
+}
+.fa-instagram {  
+background: #ee555d;  
+color: white;
+}  
+.container-1 div  {
+width: 90%;
+margin:10px auto;
+}
+/*start the news page*/
+.news {
+background-color: #f8f9fa;
+
+}
+.container-2 {
+height: 100%; 
+overflow:scroll;
+overflow-x: hidden;
+}
+.container-2 div {
+width: 70%;
+margin:auto;
+height: 70vh;
+margin-top: -400px;
+color:#101010;
+}
+section .img {
+margin: 15px;
+margin-right: 0;
+padding: 50px 0 50px 150px;
+width: 90%;
+box-shadow: 3px 3px 82px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 3px 82px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 82px -7px rgba(0,0,0,0.75);
+border-radius: 15px;
+}
+section .text {
+margin: 100px;
+margin-left: -25px;
+padding: 50px;
+width: 70%;
+font-style: bold;
+line-height: 1.5;
+}
+section ,.container-3{
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+bottom: 0px;
+left: 0px;
+height:41.2%;
+width: 100%;
+background-color: #f8f9fa;
+z-index: -1;
+}
+.container-3 div {
+width: 70%;
+margin:auto;
+height: 70vh;
+border:1px solid rgba(0,0,1,0.05);
+margin-top: -280px;
+color:#101010;
+background-color: #f8f9fa;
+}
+.container-3 div:hover {
+box-shadow: 3px 10px 22px rgba(0,0,0,0.85);
+transition: all ease-in-out 0.2s;
+}
+address {
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 150px;
+line-height: 1.5;
+font-size: 30px;
+color: 	#ff3f3f;
+}
+address a {
+text-decoration: none;
+color: 	#ff3f3f;
+border-bottom:4px solid #101010;
+}
+address a:hover {
+text-decoration: none;
+color: #101010;
+margin-bottom: 5px;
+border-bottom:4px solid #ff3f3f;
+}
